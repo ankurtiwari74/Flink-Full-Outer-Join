@@ -1,6 +1,6 @@
 # Flink-Full-Outer-Join
 
-Command I used to demonstrate Left Outer Join in Flink:
+Command I used to demonstrate Full Outer Join in Flink:
 
 /home/ankur/Flink/flink-1.10.1/bin/flink run -c fullOuterJoinPackage.FullOuterJoin /home/ankur/Flink-Execution//Jars/fullOuterJoin.jar --input1 file:///home/ankur/Flink-Execution/Inputs/personInnerJoin.txt --input2 file:///home/ankur/Flink-Execution/Inputs/locationInnerJoin.txt --output file:///home/ankur/Flink-Execution/Outputs/fullOuterJoin/FOJ
 
